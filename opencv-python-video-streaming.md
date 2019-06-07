@@ -3,14 +3,10 @@ title: opencv-python-video-streaming
 tags: opencv,python,video,streaming,ai
 ---
 
-[toc!?direction=lr]
-
 # OpenCV video streaming using Python
 
 ## Objective
 Capture video by using opencv and python on MacBook
-
-### hh
 
 ## Env.
 macOS Mojave, python 3.7.3, opencv 4.1
