@@ -1,5 +1,5 @@
 ---
-title: Build-a-tiny-web-service-by-Go-on-Linux.md
+title: build-a-tiny-web-service-by-Go-on-Linux.md
 tags:Go,Web,Service,Linux
 grammar_cjkRuby: true
 ---
