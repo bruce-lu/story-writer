@@ -108,5 +108,5 @@ eureka:
 - 打开浏览器输入： http://localhost:8761/ 可以看到
 ![Eureka server Web 页面](https://www.github.com/bruce-lu/story-writer/raw/master/story-img/1559925981713.png)
 
-
+这说明Eureka server应用成功启动。
 
