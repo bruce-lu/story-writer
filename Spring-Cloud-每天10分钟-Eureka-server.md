@@ -115,3 +115,7 @@ eureka:
 
 这说明Eureka server应用成功启动。
 
+## 源码
+
+https://github.com/bruce-lu/spring-cloud-10-mins-a-day/tree/v0.1/eureka-server
+
