@@ -63,6 +63,9 @@ Next, Finish
 
 ## EurekaServerApplication.java
 - 添加 @EnableEurekaServer 用来开启Spring Cloud的服务注册和发现功能
+
+	一个简单的注解（annotation）就赋能了应用具有服务发现功能。 这样的易用性首先暴露了Spring Cloud 开发团队确实是在一线战斗的精英工程师， 了解客户端程序员痛点并提供了干净利落的方式解决方案
+	
 - 完整代码如下
 
 ``` java
@@ -86,6 +89,9 @@ public class EurekaServerApplication {
 
 ## application.yml
 - application.properties 改名为application.yml
+
+	配置文件定义了服务端口， 服务名字等信息。fetch-registry和register-with-eureka设置成false是因为这个服务是自己， 暂时不需要获取服务列表也不需要把自己也注册到服务发现中心。 当然如果需要我们是可以把二者设置成true的， 可以自行更改测试。
+	
 - 完整代码如下
 ``` yaml
 server:
