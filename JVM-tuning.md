@@ -51,6 +51,7 @@ S0C    S1C    S0U    S1U      EC       EU        OC         OU       MC     MU  
 59392.0 59392.0  0.0    0.0   598016.0 264071.9  69632.0    23958.9   51200.0 48840.8 7040.0 6531.4      4    0.122   1      0.192    0.313
 
 - 2nd try
+java -jar -Xms768m -Xmx768m -Xmn700m  -XX:SurvivorRatio=10 -XX:+PrintGCDetails  -XX:MetaspaceSize=80M discovery-center-0.0.1-SNAPSHOT.jar
 
 5.166 = 2019-06-25 22:57:28.061 - 2019-06-25 22:57:33.227
 
