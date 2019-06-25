@@ -20,8 +20,9 @@
 
 - Minimize Full GC, down to 0 if possible
 
-## Build jar
+## Prerequisites
 
+- jar
 mvn -B -DskipTests clean package
 
 
