@@ -59,3 +59,8 @@ S0C    S1C    S0U    S1U      EC       EU        OC         OU       MC     MU  
 59392.0 59392.0  0.0   24209.6 598016.0 204594.4  69632.0     104.0    51584.0 49021.5 7040.0 6555.6      3    0.127   0      0.000    0.127
 
 
+## Heap dump
+
+jmap -dump:format=b,file=discovery-center.dump $java-pid
+jhat -port 8888 discovery-center.dump
+
