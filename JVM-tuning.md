@@ -28,7 +28,7 @@ mvn -B -DskipTests clean package
 
 ## Use cases
 
-- Default jvm settings
+- Default jvm
 java -jar discovery-center-0.0.1-SNAPSHOT.jar
 
 5.814 = 2019-06-25 22:32:57.974 - 2019-06-25 22:33:03.788
