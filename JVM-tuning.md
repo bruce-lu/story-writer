@@ -26,13 +26,16 @@
 mvn -B -DskipTests clean package
 
 
-## Base line - default JVM settings
+## Use cases
 
+- Default jvm settings
 java -jar discovery-center-0.0.1-SNAPSHOT.jar
 
 5.814 = 2019-06-25 22:32:57.974 - 2019-06-25 22:33:03.788
 
 
+
+java -jar -Xms300m -Xmx300m -XX:NewRatio=1  -XX:SurvivorRatio=10 -XX:+PrintGCDetails  -XX:MetaspaceSize=100M discovery-center-0.0.1-SNAPSHOT.jar
 
 
 
