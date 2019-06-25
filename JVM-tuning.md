@@ -31,7 +31,15 @@ mvn -B -DskipTests clean package
 - Default jvm
 java -jar discovery-center-0.0.1-SNAPSHOT.jar
 
-5.814 = 2019-06-25 22:32:57.974 - 2019-06-25 22:33:03.788
+	- Timing
+		
+		5.814 = 2019-06-25 22:32:57.974 - 2019-06-25 22:33:03.788
+
+- jstat -gc 
+
+ S0C    S1C    S0U    S1U      EC       EU        OC         OU       MC     MU    CCSC   CCSU   YGC     YGCT    FGC    FGCT     GCT
+7168.0 8192.0 7160.1  0.0   494080.0 332080.5  82944.0    15609.6   46760.0 44845.5 6312.0 5953.5     12    0.063   2      0.118    0.181
+
 
 
 
