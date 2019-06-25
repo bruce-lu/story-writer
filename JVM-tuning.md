@@ -1,22 +1,30 @@
 # JVM-tuning
 
-## 文章历史记录
+## History
 
-- 2019.6.7 创建
+- 2019.6.25 created
 
-## 作者
+## Author
 
 - Bruce Lu
 
-## 开发工具和运行环境
+## Env.
 
 - Spring Cloud Greenwich
 - Spring Boot 2.1.5
-- Java 1.8.0
+- Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 - STS (Spring Tool Suite) 4.1.1
 - MackBook Pro Mojave
 
-## 目标
-10分钟内开发运行测试Spring Cloud Eureka server
+## Objective
 
-## 打开 STS， 新建工程
+- Minimize Full GC, down to 0 if possible
+
+## Build jar
+
+mvn -B -DskipTests clean package
+
+
+## Base line - default JVM settings
+
+
