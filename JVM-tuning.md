@@ -30,7 +30,9 @@ mvn -B -DskipTests clean package
 
 java -jar discovery-center-0.0.1-SNAPSHOT.jar
 
-6s = 2019-06-25 22:32:57.974 - 2019-06-25 22:33:03.788
+5.814 = 2019-06-25 22:32:57.974 - 2019-06-25 22:33:03.788
+
+
 
 
 
