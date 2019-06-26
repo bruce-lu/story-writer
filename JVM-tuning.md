@@ -64,3 +64,5 @@ S0C    S1C    S0U    S1U      EC       EU        OC         OU       MC     MU  
 jmap -dump:format=b,file=discovery-center.dump $java-pid
 jhat -port 8888 discovery-center.dump
 
+
+
